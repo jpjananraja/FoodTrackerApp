@@ -9,6 +9,7 @@
 import Foundation
 import CoreData
 
+@objc (USDAItem)
 class USDAItem: NSManagedObject {
 
     @NSManaged var calcium: String
